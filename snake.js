@@ -1,4 +1,5 @@
 //@JGHJhamir
+
 //Elementos de Interfaz y Configuración Inicial
 const lienzo = document.getElementById('lienzoJuego');
 const ctx = lienzo.getContext('2d');
