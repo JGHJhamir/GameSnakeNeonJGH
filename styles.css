@@ -1,0 +1,116 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e2a38, #2c3e50);
+}
+
+/* Estilo del titulo */
+h1 {
+    color: #00ffff;
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+}
+
+/* Fondo de la pantalla del juego */
+#fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(110deg, #1e2a38, #34495e);
+    z-index: -1;
+}
+
+.seleccion-modo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.seleccion-modo button {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 8px;
+}
+#btnMusica {
+    background-color: #0a1d2e;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    margin: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 8px;
+}
+
+.seleccion-modo button:hover {
+    background-color: #16a085;
+    transform: scale(1.05);
+}
+
+/* Estilo del contenedor */
+.contenedor-juego {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+/* Estilo del lienzo*/
+#lienzoJuego {
+    background-color: #2c3e50;
+    border: 4px solid #00ffff; 
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.7); /* Sombra neón */
+}
+
+
+/* Estilo del contador de comida*/
+#contenedorComida {
+    color: #00ffff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Estilo de los controles*/
+.controles button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 8px;
+}
+
+.controles button:hover {
+    background-color: #2ecc71;
+    transform: scale(1.05);
+}
+
+.controles {
+    margin-top: 20px;
+}
+
+/* Alineacion de los botones*/
+.controles button:first-child {
+    margin-right: 10px;
+}
+

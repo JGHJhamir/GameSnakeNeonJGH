@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeir Snake Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="fondo"></div>
+    <h1>SNAKE NEON</h1>
+    <div class="seleccion-modo" id="seleccionModo">
+        <button id="btnModoInfinito">Modo Infinito</button>
+        <button id="btnModoVelocidad">Modo con Velocidad</button>
+    </div>
+    <div class="contenedor-juego" id="contenedorJuego" style="display: none;">
+        <canvas id="lienzoJuego"></canvas>
+        <div id="contenedorComida" class="texto-terminal">Comida: <span id="contadorComida">0</span></div>
+        <div class="controles">
+            <button id="btnJugarPausar">Jugar</button>
+            <button id="btnReiniciar">Reiniciar</button>
+            <button id="btnSalirModo">Salir</button>
+        </div>
+    </div>
+    <audio id="background-music" src="SerpienteNeon.mp3" loop></audio>
+    <button id="btnMusica">Musica</button>
+    <script src="snake.js"></script>
+</body>
+</html>
